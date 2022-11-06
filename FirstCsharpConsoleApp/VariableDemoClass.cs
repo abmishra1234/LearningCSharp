@@ -53,14 +53,11 @@ namespace FirstCsharpConsoleApp
 
             Console.WriteLine(str);
 
-
-
-
-
-
+            /*
+                For comment, you can use the XML tags for C#
+                Please refer : https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/recommended-tags#para
+            */
         }
-
-
 
         public int getExpYear()
         {
