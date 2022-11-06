@@ -79,13 +79,14 @@ namespace FirstCsharpConsoleApp
                 Console.WriteLine("the value of i is {0}", i);
             }
 
+            // simillarly you can write sample code for while 
+            string str = "";
 
-
-
-
-
-
-
+            while(str != "exit")
+            {
+                str = Console.ReadLine();
+                Console.WriteLine(str);
+            }
 
         }
     }
