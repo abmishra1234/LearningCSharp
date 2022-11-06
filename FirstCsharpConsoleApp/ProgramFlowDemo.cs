@@ -28,7 +28,6 @@ namespace FirstCsharpConsoleApp
             Console.WriteLine("Demo for Swich option below!!!");
 
             int sVal = 59;
-
             switch(sVal)
             {
                 case 58:
@@ -46,9 +45,7 @@ namespace FirstCsharpConsoleApp
                     Console.WriteLine("The value is something else!!!");
                     break;
             }
-
             string name = "babita";
-
             switch (name)
             {
                 case "smita":
@@ -66,6 +63,27 @@ namespace FirstCsharpConsoleApp
                     Console.WriteLine("The name is unknown!!!");
                     break;
             }
+
+            // for and foreach loop ietration demo sample code.
+            int counter = 15;
+            for(var i = 0; i<counter; ++i)
+            {
+                Console.WriteLine("the value of i is {0}", i);
+            }
+
+            Console.WriteLine("-------------------------");
+
+            int[] nums = { 3, 5, 6, 78, 34, 23, 45};
+
+            foreach(var i in nums) {
+                Console.WriteLine("the value of i is {0}", i);
+            }
+
+
+
+
+
+
 
 
 
