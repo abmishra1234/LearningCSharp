@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using FirstCsharpConsoleApp;
 using HelloWorld;
 
+//---------------------------------------------
 
 namespace FirstCsharpConsoleApp
 {
@@ -16,6 +18,15 @@ namespace FirstCsharpConsoleApp
 
             Solution sln = new Solution();
             sln.Enquiry();
+
+            VariableDemoClass vdc = new VariableDemoClass(5, 23456.456, 
+                "Abinash Mishra", "9971003216", 8534369, "Noida 201301");
+
+            Console.WriteLine(vdc.getExpYear());
+            Console.WriteLine();
+            Console.WriteLine(vdc.getExpYear());
+
+
         }
     }
 }
