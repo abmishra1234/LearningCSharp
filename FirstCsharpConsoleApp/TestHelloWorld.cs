@@ -28,9 +28,11 @@ namespace FirstCsharpConsoleApp
 
             //vdc.testMethod();
 
-            ProgramFlowDemo pf = new ProgramFlowDemo();
-            pf.Demo();
+            //ProgramFlowDemo pf = new ProgramFlowDemo();
+            //pf.Demo();
 
+            ExceptionHandler exc = new ExceptionHandler();
+            exc.DemoException();
 
         }
     }
