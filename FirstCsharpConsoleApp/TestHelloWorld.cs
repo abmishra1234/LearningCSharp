@@ -12,6 +12,8 @@ namespace FirstCsharpConsoleApp
     {
         static void Main(string[]args)
         {
+            Console.WriteLine("Welcome to the C# basic language learning!!!");
+
             Solution sln = new Solution();
             sln.Enquiry();
         }
