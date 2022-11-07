@@ -31,8 +31,13 @@ namespace FirstCsharpConsoleApp
             //ProgramFlowDemo pf = new ProgramFlowDemo();
             //pf.Demo();
 
-            ExceptionHandler exc = new ExceptionHandler();
-            exc.DemoException();
+            //ExceptionHandler exc = new ExceptionHandler();
+            //exc.DemoException();
+
+            StringDemo sd = new StringDemo();
+            sd.Demo();
+
+
 
         }
     }
