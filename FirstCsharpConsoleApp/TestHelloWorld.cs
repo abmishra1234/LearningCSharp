@@ -34,9 +34,11 @@ namespace FirstCsharpConsoleApp
             //ExceptionHandler exc = new ExceptionHandler();
             //exc.DemoException();
 
-            StringDemo sd = new StringDemo();
-            sd.Demo();
+            //StringDemo sd = new StringDemo();
+            //sd.Demo();
 
+            NumberGame game = new NumberGame();
+            game.Play("Smita");
 
 
         }
