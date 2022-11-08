@@ -37,8 +37,15 @@ namespace FirstCsharpConsoleApp
             //StringDemo sd = new StringDemo();
             //sd.Demo();
 
-            NumberGame game = new NumberGame();
-            game.Play("Smita");
+            //NumberGame game = new NumberGame();
+            //game.Play("Smita");
+
+            // demo for the 
+
+            DifferentTypeOfParameters dtp = new DifferentTypeOfParameters();
+            dtp.Demo();
+
+
 
 
         }
