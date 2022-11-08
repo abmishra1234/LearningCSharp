@@ -45,26 +45,30 @@ namespace FirstCsharpConsoleApp
             int ansInd = indStr.IndexOf("string");
             Console.WriteLine(ansInd); // 19
 
-
-
             // demo for the LastIndexOf
+            ansInd = indStr.LastIndexOf("is");
+            Console.WriteLine(ansInd); // 35
 
+            int bal = 12000;
+            // string formating
+            string formatStr = string.Format("Today's date is {0} and I left only with my {1} now", DateTime.Now, bal);
+            Console.WriteLine(formatStr);
 
+            // Demo for StringBuilder class
+            StringBuilder sb = new StringBuilder("This is initial string", 200);
+            Console.WriteLine($"{sb.Capacity}, {sb.Length}");
 
+            sb.Append(" and this is appended string newly");
+            Console.WriteLine($"{sb.Capacity}, {sb.Length}");
 
+            Console.WriteLine(sb.ToString());
 
-
-
-
-
-
+            // 
 
 
 
 
 
         }
-
-
     }
 }
