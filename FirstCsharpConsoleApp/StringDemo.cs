@@ -11,7 +11,7 @@ namespace FirstCsharpConsoleApp
         public void Demo()
         {
             // here our job is to take string class and do some hands on wiht the string class
-            string str1 = "Mishra";
+            string str1 = "This is my first string based assign to this fellow is my Mishra";
             string str2 = "Mishra";
 
             // Concat
@@ -28,6 +28,29 @@ namespace FirstCsharpConsoleApp
 
             string str5 = string.Copy("Hello Mishra");
             Console.WriteLine(str5);
+
+            // demo for the Contains, return bool
+            bool result = str1.Contains("babita"); // return false
+            Console.WriteLine(result);
+
+            result = str1.Contains("first"); // return false
+            Console.WriteLine(result);
+
+            // demo for EndsWith
+            result = str1.EndsWith(str2);
+            Console.WriteLine(result);
+
+            // demo for the IndexOf
+            string indStr = "This is my testing string and this is also hope that";
+            int ansInd = indStr.IndexOf("string");
+            Console.WriteLine(ansInd); // 19
+
+
+
+            // demo for the LastIndexOf
+
+
+
 
 
 
