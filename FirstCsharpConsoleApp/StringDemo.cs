@@ -60,14 +60,13 @@ namespace FirstCsharpConsoleApp
 
             sb.Append(" and this is appended string newly");
             Console.WriteLine($"{sb.Capacity}, {sb.Length}");
-
             Console.WriteLine(sb.ToString());
 
-            // 
-
-
-
-
+            // do the Parse demo below
+            string input = "12345";
+            int val = Int32.Parse(input);
+            Console.WriteLine(val);
+            Console.WriteLine("'{0}' parsed as {1}", input, val);
 
         }
     }
