@@ -17,13 +17,29 @@ namespace FirstCsharpConsoleApp
 
             Console.WriteLine("Hello {0} {1}", names);
 
+            var al = new System.Collections.ArrayList(2);
 
+            al.Add("First Item");
+            al.Add("Second Item");
+            al.Add("Third Item");
+
+            // iterate the element from the collection class like ArrayList
+            foreach(var item in al)
+            {
+                Console.WriteLine(item);
+            }
+
+            al.AddRange(new string[] { "Abinash", "Babita", "Smita", "Aastha", "Amaya", "Aahana" });
+
+            al.Sort();
+
+            // iterate the element from the collection class like ArrayList
+            foreach (var item in al)
+            {
+                Console.WriteLine(item);
+            }
 
             
-
-
-
-
 
         }
     }
