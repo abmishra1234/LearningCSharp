@@ -42,8 +42,10 @@ namespace FirstCsharpConsoleApp
 
             // demo for the 
 
-            DifferentTypeOfParameters dtp = new DifferentTypeOfParameters();
-            dtp.Demo();
+            //DifferentTypeOfParameters dtp = new DifferentTypeOfParameters();
+            //dtp.Demo();
+
+            // Lets focus on learning the C# Collection
 
 
 
