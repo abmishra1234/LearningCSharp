@@ -39,9 +39,32 @@ namespace Collection_Learning_Csharp
             l.Add("Smita Mishra");
 
             // Examine the count and capaity.
-            Console.WriteLine("Count and Capacity : {0}, {1}", l.Count, l.Capacity);
+            //Console.WriteLine("Count and Capacity : {0}, {1}", l.Count, l.Capacity);
 
+            //Print_List();
+            // lets access the individual item in list
+            //Console.WriteLine(l[0]);
+
+            // let's remove item from the list
+            //l.RemoveAt(0);
+            //Print_List();
+
+            l.Sort();
             Print_List();
+
+            // Serching the List Content
+            int ansInd = l.BinarySearch("Smita Mishra");
+            Console.WriteLine(ansInd);
+            Console.WriteLine(l[ansInd]);
+
+            // TODO: Determine if a list contains a given item
+            Console.WriteLine(l.Contains("Abinash Mishra"));
+
+            l.RemoveAt(0);
+            Console.WriteLine(l.Contains("Abinash Mishra"));
+            Print_List();
+
+
         }
 
 
