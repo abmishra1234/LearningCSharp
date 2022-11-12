@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Collection_Learning_Csharp/1.0.0": {
+        "runtime": {
+          "Collection_Learning_Csharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Collection_Learning_Csharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
