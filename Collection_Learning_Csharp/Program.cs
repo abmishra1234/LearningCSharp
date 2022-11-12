@@ -8,5 +8,10 @@ using Collection_Learning_Csharp;
 //ListDemo cl = new ListDemo();
 //cl.Solve_List();
 
-LinkedListDemo llDemo = new LinkedListDemo();
-llDemo.Demo();
+//LinkedListDemo llDemo = new LinkedListDemo();
+//llDemo.Demo();
+
+
+StackDemo stkDemo = new StackDemo();
+stkDemo.Demo();
+
