@@ -38,9 +38,6 @@ namespace FirstCsharpConsoleApp
             {
                 Console.WriteLine(item);
             }
-
-            
-
         }
     }
 }
