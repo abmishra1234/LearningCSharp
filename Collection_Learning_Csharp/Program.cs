@@ -2,8 +2,11 @@
 using Collection_Learning_Csharp;
 
 
-Console.WriteLine("Hello, World!");
+//Console.WriteLine("Hello, World!");
 
 
-ListDemo cl = new ListDemo();
-cl.Solve_List();
+//ListDemo cl = new ListDemo();
+//cl.Solve_List();
+
+LinkedListDemo llDemo = new LinkedListDemo();
+llDemo.Demo();
