@@ -5,5 +5,5 @@ using Collection_Learning_Csharp;
 Console.WriteLine("Hello, World!");
 
 
-Collection01 cl = new Collection01();
+ListDemo cl = new ListDemo();
 cl.Solve_List();

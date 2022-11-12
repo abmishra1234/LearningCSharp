@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace Collection_Learning_Csharp
 {
-    internal class Collection01
+    internal class ListDemo
     {
         List<string> l;
 
-        public Collection01()
+        public ListDemo()
         {
             // create the new list
             l = new List<string>(10);    
