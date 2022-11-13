@@ -1,0 +1,15 @@
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\Debugging_CSharp_Application\bin\Debug\net6.0\Debugging_CSharp_Application.exe
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\Debugging_CSharp_Application\bin\Debug\net6.0\Debugging_CSharp_Application.deps.json
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\Debugging_CSharp_Application\bin\Debug\net6.0\Debugging_CSharp_Application.runtimeconfig.json
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\Debugging_CSharp_Application\bin\Debug\net6.0\Debugging_CSharp_Application.dll
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\Debugging_CSharp_Application\bin\Debug\net6.0\Debugging_CSharp_Application.pdb
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\Debugging_CSharp_Application\obj\Debug\net6.0\Debugging_CSharp_Application.csproj.AssemblyReference.cache
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\Debugging_CSharp_Application\obj\Debug\net6.0\Debugging_CSharp_Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\Debugging_CSharp_Application\obj\Debug\net6.0\Debugging_CSharp_Application.AssemblyInfoInputs.cache
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\Debugging_CSharp_Application\obj\Debug\net6.0\Debugging_CSharp_Application.AssemblyInfo.cs
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\Debugging_CSharp_Application\obj\Debug\net6.0\Debugging_CSharp_Application.csproj.CoreCompileInputs.cache
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\Debugging_CSharp_Application\obj\Debug\net6.0\Debugging_CSharp_Application.dll
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\Debugging_CSharp_Application\obj\Debug\net6.0\refint\Debugging_CSharp_Application.dll
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\Debugging_CSharp_Application\obj\Debug\net6.0\Debugging_CSharp_Application.pdb
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\Debugging_CSharp_Application\obj\Debug\net6.0\Debugging_CSharp_Application.genruntimeconfig.cache
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\Debugging_CSharp_Application\obj\Debug\net6.0\ref\Debugging_CSharp_Application.dll

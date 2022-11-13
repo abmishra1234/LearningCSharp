@@ -21,8 +21,8 @@ using Collection_Learning_Csharp;
 //DictionaryDemo dictDemo = new DictionaryDemo();
 //dictDemo.Demo();
 
-//Challenge_01 chDemo = new Challenge_01();
-//chDemo.Solve();
+Challenge_01 chDemo = new Challenge_01();
+chDemo.Solve();
 
 
 

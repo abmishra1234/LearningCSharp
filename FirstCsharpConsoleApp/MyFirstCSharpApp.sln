@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstCsharpConsoleApp", "Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collection_Learning_Csharp", "..\Collection_Learning_Csharp\Collection_Learning_Csharp.csproj", "{7EC4F86E-140E-4559-842A-B4D841B7E91C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thread-Safe Data With Concurrent Collection", "..\Thread-Safe Data With Concurrent Collection\Thread-Safe Data With Concurrent Collection.csproj", "{3C866D73-77EF-4FA1-A0DD-7C7ACC8D4F65}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{7EC4F86E-140E-4559-842A-B4D841B7E91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EC4F86E-140E-4559-842A-B4D841B7E91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EC4F86E-140E-4559-842A-B4D841B7E91C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3C866D73-77EF-4FA1-A0DD-7C7ACC8D4F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3C866D73-77EF-4FA1-A0DD-7C7ACC8D4F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3C866D73-77EF-4FA1-A0DD-7C7ACC8D4F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3C866D73-77EF-4FA1-A0DD-7C7ACC8D4F65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
