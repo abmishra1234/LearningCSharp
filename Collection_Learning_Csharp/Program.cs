@@ -15,7 +15,10 @@ using Collection_Learning_Csharp;
 //StackDemo stkDemo = new StackDemo();
 //stkDemo.Demo();
 
-QueueDemo qDemo = new QueueDemo();
-qDemo.Demo();
+//QueueDemo qDemo = new QueueDemo();
+//qDemo.Demo();
+
+DictionaryDemo dictDemo = new DictionaryDemo();
+dictDemo.Demo();
 
 
