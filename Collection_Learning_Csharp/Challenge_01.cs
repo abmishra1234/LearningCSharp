@@ -38,7 +38,7 @@ namespace Collection_Learning_Csharp
         {
             foreach (Item item in items)
             {
-                Console.WriteLine("Item: {0}, Price: {1}, Quantity: {2}", item.Name, item.Price, item.Qty);
+                Console.WriteLine("Item: {0, 10}, Price: {1:C}, Quantity: {2}", item.Name, item.Price, item.Qty);
             }
             Console.WriteLine("==========================");
         }
