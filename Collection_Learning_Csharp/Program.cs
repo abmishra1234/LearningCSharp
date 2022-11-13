@@ -18,7 +18,11 @@ using Collection_Learning_Csharp;
 //QueueDemo qDemo = new QueueDemo();
 //qDemo.Demo();
 
-DictionaryDemo dictDemo = new DictionaryDemo();
-dictDemo.Demo();
+//DictionaryDemo dictDemo = new DictionaryDemo();
+//dictDemo.Demo();
+
+
+Challenge_01 chDemo = new Challenge_01();
+chDemo.Solve();
 
 
