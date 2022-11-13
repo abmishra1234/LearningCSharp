@@ -8,6 +8,8 @@ namespace CSharp_Algorithm
 {
     internal class StringAlgo
     {
+        // Validating the string methods
+
         // verification code for all Upper ?
         public Boolean IsUpperCase(string s)
         {
@@ -26,6 +28,17 @@ namespace CSharp_Algorithm
             return s.Any(char.IsLower) && s.Any(char.IsUpper)
                 && s.Any(char.IsNumber);
         }
+
+        //----------------------------------
+        // Normalize String in C#
+        public string NormalizeString(string input)
+        {
+            return input.ToLower().Trim().Replace(",", "");
+        }
+
+
+        // Algorithm driven sample code
+
 
 
 
