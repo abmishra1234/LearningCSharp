@@ -68,5 +68,25 @@ namespace CSharp_Algorithm
             return new string(arr);
         }
 
+        public string ReverseEachWord(string input)
+        {
+            if (string.IsNullOrEmpty(input))
+            {
+                return input;
+            }
+
+            StringBuilder sb = new StringBuilder();
+
+            input = Reverse2(input);
+
+            var words = input.Split(' ');
+            foreach(var word in words)
+            {
+                sb.Append(Reverse2(word));
+                sb.Append(' ');
+            }
+
+            return sb.ToString();
+        }
     }
 }

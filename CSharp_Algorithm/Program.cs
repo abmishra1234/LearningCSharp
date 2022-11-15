@@ -20,3 +20,7 @@ StringAlgo sa = new StringAlgo();
 Console.WriteLine(sa.NormalizeString("           Hello There, beautiful lady          "));
 Console.WriteLine(sa.Reverse("Abinash"));
 Console.WriteLine(sa.Reverse2("Abinash"));
+// ReverseEachWord
+Console.WriteLine("Hi, I am Abinash Mishra");
+Console.WriteLine(sa.ReverseEachWord("Hi, I am Abinash Mishra"));
+
