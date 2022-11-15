@@ -18,4 +18,4 @@ StringAlgo sa = new StringAlgo();
 //Console.WriteLine(sa.IsPasswordComplex("Abcd0"));
 
 Console.WriteLine(sa.NormalizeString("           Hello There, beautiful lady          "));
-
+Console.WriteLine(sa.Reverse("Abinash"));
