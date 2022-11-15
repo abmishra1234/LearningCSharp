@@ -88,5 +88,34 @@ namespace CSharp_Algorithm
 
             return sb.ToString();
         }
+
+        /*
+            Searching the data into array if the data is not oredred
+            Optimized way of usage with Demo Method
+        */
+
+        Boolean SearchLinearly(int []array, int elem)
+        {
+            foreach(int i in array)
+            {
+                if(i == elem)
+                    return true;
+            }
+            return false;
+        }
+
+
+        public void Demo2(int []inArr, int item)
+        {
+            //return SearchLinearly(inArr, elem);
+            var elem = Array.Find(inArr, element=> element == item);
+            Console.WriteLine(elem);
+
+            // if you have multiple item into the Array , in that case how to do?
+
+            var elemArr = Array.FindAll(inArr, element=> element == item);
+            Array.ForEach(elemArr, element=> Console.WriteLine(element));
+
+        }
     }
 }

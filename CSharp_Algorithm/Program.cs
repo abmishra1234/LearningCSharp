@@ -17,10 +17,14 @@ StringAlgo sa = new StringAlgo();
 //Console.WriteLine(sa.IsPasswordComplex("AbcdF"));
 //Console.WriteLine(sa.IsPasswordComplex("Abcd0"));
 
-Console.WriteLine(sa.NormalizeString("           Hello There, beautiful lady          "));
-Console.WriteLine(sa.Reverse("Abinash"));
-Console.WriteLine(sa.Reverse2("Abinash"));
-// ReverseEachWord
-Console.WriteLine("Hi, I am Abinash Mishra");
-Console.WriteLine(sa.ReverseEachWord("Hi, I am Abinash Mishra"));
+//Console.WriteLine(sa.NormalizeString("           Hello There, beautiful lady          "));
+//Console.WriteLine(sa.Reverse("Abinash"));
+//Console.WriteLine(sa.Reverse2("Abinash"));
+//// ReverseEachWord
+//Console.WriteLine("Hi, I am Abinash Mishra");
+//Console.WriteLine(sa.ReverseEachWord("Hi, I am Abinash Mishra"));
+
+// Search Element into the array
+int[] inArr = { 1, 2, 3, 4, 5, 6, 3, 4, 5, 6, 3, 4, 5, 6, 3, 4, 5, 6 };
+sa.Demo2(inArr, 4);
 
