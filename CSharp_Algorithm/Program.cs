@@ -19,3 +19,4 @@ StringAlgo sa = new StringAlgo();
 
 Console.WriteLine(sa.NormalizeString("           Hello There, beautiful lady          "));
 Console.WriteLine(sa.Reverse("Abinash"));
+Console.WriteLine(sa.Reverse2("Abinash"));

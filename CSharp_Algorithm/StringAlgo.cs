@@ -56,8 +56,17 @@ namespace CSharp_Algorithm
             return sb.ToString();
         }
 
+        public string Reverse2(string input)
+        {
+            if (string.IsNullOrEmpty(input))
+            {
+                return input;
+            }
 
-
+            char[] arr = input.ToCharArray();
+            Array.Reverse(arr);
+            return new string(arr);
+        }
 
     }
 }
