@@ -1,0 +1,15 @@
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\CSharp_Algorithm\bin\Release\net6.0\CSharp_Algorithm.exe
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\CSharp_Algorithm\bin\Release\net6.0\CSharp_Algorithm.deps.json
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\CSharp_Algorithm\bin\Release\net6.0\CSharp_Algorithm.runtimeconfig.json
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\CSharp_Algorithm\bin\Release\net6.0\CSharp_Algorithm.dll
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\CSharp_Algorithm\bin\Release\net6.0\CSharp_Algorithm.pdb
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\CSharp_Algorithm\obj\Release\net6.0\CSharp_Algorithm.csproj.AssemblyReference.cache
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\CSharp_Algorithm\obj\Release\net6.0\CSharp_Algorithm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\CSharp_Algorithm\obj\Release\net6.0\CSharp_Algorithm.AssemblyInfoInputs.cache
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\CSharp_Algorithm\obj\Release\net6.0\CSharp_Algorithm.AssemblyInfo.cs
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\CSharp_Algorithm\obj\Release\net6.0\CSharp_Algorithm.csproj.CoreCompileInputs.cache
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\CSharp_Algorithm\obj\Release\net6.0\CSharp_Algorithm.dll
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\CSharp_Algorithm\obj\Release\net6.0\refint\CSharp_Algorithm.dll
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\CSharp_Algorithm\obj\Release\net6.0\CSharp_Algorithm.pdb
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\CSharp_Algorithm\obj\Release\net6.0\CSharp_Algorithm.genruntimeconfig.cache
+C:\Abinash-Work\C#_Learning_Nov2022\FirstCsharpConsoleApp\MyFirstCSharpConsoleApp\CSharp_Algorithm\obj\Release\net6.0\ref\CSharp_Algorithm.dll
