@@ -2,16 +2,18 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-public class Bulkhead
+public class Bulkhead<T>
 {
     private SemaphoreSlim _semaphore;
+    private readonly int _maxConcurrency;
 
     public Bulkhead(int maxConcurrency)
     {
-        _semaphore = new SemaphoreSlim(maxConcurrency);
+        _maxConcurrency = maxConcurrency;
+        _semaphore = new SemaphoreSlim(_maxConcurrency);
     }
 
-    public async Task RunAsync(Func<Task> action)
+    public async Task RunAsync(T context, Func<T, Task> action)
     {
         if (action == null)
         {
@@ -22,7 +24,7 @@ public class Bulkhead
         try
         {
             Console.WriteLine($"Starting action ({DateTime.Now.ToString("hh:mm:ss.fff")})");
-            await action();
+            await action(context);
             Console.WriteLine($"Finished action ({DateTime.Now.ToString("hh:mm:ss.fff")})");
         }
         finally
@@ -32,6 +34,7 @@ public class Bulkhead
     }
 }
 
+
 public class Program
 {
     static async Task Main(string[] args)
@@ -39,20 +42,20 @@ public class Program
         int numTasks = 10;
         int completedTasks = 0;
         object lockObj = new object();
-        var bulkhead = new Bulkhead(3); // maxConcurrency = 3
+        var bulkhead = new Bulkhead<int>(maxConcurrency: 3); // set max concurrency to 3
 
         for (var i = 0; i < numTasks; i++)
         {
             var taskNum = i; // capture task number in local variable
-            var task = Task.Run(async () =>
+            var task = new Func<int, Task>(async (context) =>
             {
                 try
                 {
-                    await bulkhead.RunAsync(async () =>
+                    await bulkhead.RunAsync(context, async (ctx) =>
                     {
-                        Console.WriteLine($"Starting task {taskNum} ({DateTime.Now.ToString("hh:mm:ss.fff")})");
+                        Console.WriteLine($"Starting task {taskNum} ({DateTime.Now.ToString("hh:mm:ss.fff")}) with context {ctx}");
                         await Task.Delay(1000);
-                        Console.WriteLine($"Finished task {taskNum} ({DateTime.Now.ToString("hh:mm:ss.fff")})");
+                        Console.WriteLine($"Finished task {taskNum} ({DateTime.Now.ToString("hh:mm:ss.fff")}) with context {ctx}");
 
                         lock (lockObj)
                         {
@@ -70,7 +73,7 @@ public class Program
                 }
             });
 
-            await task;
+            ThreadPool.QueueUserWorkItem(async _ => await task.Invoke(taskNum));
         }
 
         Console.ReadLine();
