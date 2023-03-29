@@ -1,0 +1,8 @@
+C:\Users\abmis\OneDrive\Desktop\CSharp-Daily-Learning\LearningCSharp\ConsoleApp1\ConsoleApp1\bin\x64\Debug\ConsoleApp1.exe.config
+C:\Users\abmis\OneDrive\Desktop\CSharp-Daily-Learning\LearningCSharp\ConsoleApp1\ConsoleApp1\bin\x64\Debug\ConsoleApp1.exe
+C:\Users\abmis\OneDrive\Desktop\CSharp-Daily-Learning\LearningCSharp\ConsoleApp1\ConsoleApp1\bin\x64\Debug\ConsoleApp1.pdb
+C:\Users\abmis\OneDrive\Desktop\CSharp-Daily-Learning\LearningCSharp\ConsoleApp1\ConsoleApp1\obj\x64\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\abmis\OneDrive\Desktop\CSharp-Daily-Learning\LearningCSharp\ConsoleApp1\ConsoleApp1\obj\x64\Debug\ConsoleApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\abmis\OneDrive\Desktop\CSharp-Daily-Learning\LearningCSharp\ConsoleApp1\ConsoleApp1\obj\x64\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\abmis\OneDrive\Desktop\CSharp-Daily-Learning\LearningCSharp\ConsoleApp1\ConsoleApp1\obj\x64\Debug\ConsoleApp1.exe
+C:\Users\abmis\OneDrive\Desktop\CSharp-Daily-Learning\LearningCSharp\ConsoleApp1\ConsoleApp1\obj\x64\Debug\ConsoleApp1.pdb
